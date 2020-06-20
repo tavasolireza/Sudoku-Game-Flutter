@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 //        primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        scaffoldBackgroundColor: Color(0xFFFCF6F3),
       ),
       initialRoute: 'homeScreen',
       routes: {
